@@ -3,7 +3,7 @@ import React from 'react'
 export default function Section() {
   return (
     
-       <div className="grid grid-cols-3 mt-10 gap-10 p-8 4xl:p-14 4xl:gap-16">
+       <div className="grid grid-cols-3 mt-10 gap-10 p-8 4xl:p-14 4xl:gap-14">
        {/* First Grid class Row  */}
          <div className="">
           <div className="bg-[#F4F6F8] justify-between flex  items-center  p-3 rounded-md mb-6 4xl:w-72"> 
@@ -11,7 +11,7 @@ export default function Section() {
            <span className="bg-[#000000] text-[#FFF] rounded w-10 p-1 text-center"> 3</span> 
             </div>
               <div className="bg-white rounded shadow p-4 w-80 4xl:w-72">
-                 <img src="Pink.png" alt="imag" className="w-full h-32" />
+                 <img src="Pink.png" alt="imag" className="w-full h-32 4xl:w-full 4xl:h-44" />
                    <div className="flex justify-between items-center mt-3">
                       <div className="">
                     <h3 className="font-bold">Highfidelity Design</h3>
@@ -117,7 +117,7 @@ export default function Section() {
           <div className="bg-[#F4F6F8] justify-between flex  items-center  p-3 rounded-md mb-6 4xl:w-72"> 
           <h2 className="text-[#858A93] font-normal ">Inprogress</h2><span className="bg-[#000000] text-[#FFF] rounded w-10 p-1 text-center"> 1 </span></div>
               <div className="bg-white rounded shadow p-4 w-80 mb-4 4xl:w-72">
-                 <img src="French.png" alt="img"  className="w-full h-32"/>
+                 <img src="French.png" alt="img"  className="w-full h-32  4xl:w-full 4xl:h-44"/>
                  <div className=" flex justify-between items-center mt-3">
                  <div className="">
                   <h3 className="font-bold"> Highfidelity Design</h3>
@@ -242,7 +242,7 @@ export default function Section() {
       
                
                 <div className=" bg-white rounded shadow p-4 mt-3 w-80 mb-4 4xl:w-72">
-                 <img src="Camplog.png" alt="img" className="w-full h-32"/>
+                 <img src="Camplog.png" alt="img" className="w-full h-32 4xl:w-full 4xl:h-44"/>
                  <div className="flex justify-between items-center mt-3">
                  <div className="">
                     <h3 className="font-bold"> Highfidelity Design</h3>
