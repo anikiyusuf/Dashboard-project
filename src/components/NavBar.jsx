@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function NavBar() {
   return (
-        <div className="bg-white shadow p-8  font-Inter">
+        <div className="bg-white shadow p-8  font-Inter 4xl:p-10">
           <div className="flex justify-between">
            <div className="">
            <h2 className="font-bold text-3xl text-[#000000] justify-center"> New Campaign Run</h2>

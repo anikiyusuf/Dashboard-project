@@ -3,14 +3,14 @@ import React from 'react'
 export default function Section() {
   return (
     
-       <div className=" xl:grid xl:grid-cols-3 mt-10 gap-10 p-8  lg:grid lg:grid-cols-2 ">
+       <div className="grid grid-cols-3 mt-10 gap-10 p-8 4xl:p-14 4xl:gap-16">
        {/* First Grid class Row  */}
          <div className="">
-          <div className="bg-[#F4F6F8] justify-between flex  items-center  p-3 rounded-md mb-6"> 
+          <div className="bg-[#F4F6F8] justify-between flex  items-center  p-3 rounded-md mb-6 4xl:w-72"> 
           <h2 className="text-[#858A93] font-normal ">To Do</h2> 
            <span className="bg-[#000000] text-[#FFF] rounded w-10 p-1 text-center"> 3</span> 
             </div>
-              <div className="bg-white rounded shadow p-4 w-80">
+              <div className="bg-white rounded shadow p-4 w-80 4xl:w-72">
                  <img src="Pink.png" alt="imag" className="w-full h-32" />
                    <div className="flex justify-between items-center mt-3">
                       <div className="">
@@ -57,7 +57,7 @@ export default function Section() {
  </div>
 
 {/* Subcard */}
-            <div className="mt-3 bg-white rounded shadow  p-4 w-80">
+            <div className="mt-3 bg-white rounded shadow  p-4 w-80  4xl:w-72">
             <div className="flex justify-between items-center">
             <div className="">
            <h3 className="font-bold">Usability testing</h3>
@@ -114,8 +114,9 @@ export default function Section() {
 
        {/* Second Grid class */}
           <div className="">
-          <div className="bg-[#F4F6F8] justify-between flex  items-center  p-3 rounded-md mb-6"> <h2 className="text-[#858A93] font-normal ">Inprogress</h2><span className="bg-[#000000] text-[#FFF] rounded w-10 p-1 text-center"> 1 </span></div>
-              <div className="bg-white rounded shadow p-4 w-80 mb-4">
+          <div className="bg-[#F4F6F8] justify-between flex  items-center  p-3 rounded-md mb-6 4xl:w-72"> 
+          <h2 className="text-[#858A93] font-normal ">Inprogress</h2><span className="bg-[#000000] text-[#FFF] rounded w-10 p-1 text-center"> 1 </span></div>
+              <div className="bg-white rounded shadow p-4 w-80 mb-4 4xl:w-72">
                  <img src="French.png" alt="img"  className="w-full h-32"/>
                  <div className=" flex justify-between items-center mt-3">
                  <div className="">
@@ -185,9 +186,10 @@ export default function Section() {
 
           {/* Third Grid Class */}
           <div className="third">
-              <div className="bg-[#F4F6F8] justify-between flex  items-center  p-3 rounded-md mb-6"><h2 className="text-[#858A93] font-normal"> Completed </h2><span className="bg-[#000000] text-[#FFF] rounded w-10 p-1 text-center">2</span></div>
+              <div className="bg-[#F4F6F8] justify-between flex  items-center  p-3 rounded-md mb-6 4xl:w-72">
+              <h2 className="text-[#858A93] font-normal"> Completed </h2><span className="bg-[#000000] text-[#FFF] rounded w-10 p-1 text-center">2</span></div>
               {/* Card */}
-                <div className="bg-white rounded shadow p-4 w-80">
+                <div className="bg-white rounded shadow p-4 w-80 4xl:w-72">
                 <div className="flex justify-between items-center ">
                   <div className="">
                <h3 className="font-bold">Usability testing</h3>
@@ -239,7 +241,7 @@ export default function Section() {
                 </div>
       
                
-                <div className=" bg-white rounded shadow p-4 mt-3 w-80 mb-4">
+                <div className=" bg-white rounded shadow p-4 mt-3 w-80 mb-4 4xl:w-72">
                  <img src="Camplog.png" alt="img" className="w-full h-32"/>
                  <div className="flex justify-between items-center mt-3">
                  <div className="">

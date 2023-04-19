@@ -4,6 +4,11 @@ export default {
   "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
     extend: {
+      screens:{
+          '6xl':{'max': '1920px'},
+          '5xl':{'max': '1400px'},
+          '4xl':{'max': '1280px'}
+      },
       color:{
         deep:{
           500:' #45269C',

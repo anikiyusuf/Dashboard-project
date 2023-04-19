@@ -6,7 +6,7 @@ import Section from './Section'
 export default function Dashboard() {
   return (
     <div className="flex bg-gray-200 font-Inter">
-       <div className="bg-[#1D1042]  h-[60rem]">
+       <div className="bg-[#1D1042]  h-[65rem]">
           <SideBar/>
       </div>
       <div className="">
