@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* .btn{
+    @apply border-dotted border-2 border-[#D5D5D5] rounded-xl  bg-[#F2F4F5] text-[#7D8088] py-2 px-28  cursor-pointer tracking-widest;
+}  */
+
+.btn{
+    @apply border-dotted  bg-[#F2F4F5] cursor-pointer  flex gap-3 rounded-xl   justify-center  border-[#D5D5D5] text-[#7D8088] border-2 tracking-widest  py-2 px-12 items-center  
+}
+
+.side{
+    @apply  flex gap-3 items-center  font-normal  text-[14px]
+}
+
+.sectionIcon{
+    @apply flex gap-1 items-center
+}
+
+.progress{
+    @apply flex items-center gap-1
+}
